@@ -3,4 +3,19 @@
   <groupId>CICD_b2</groupId>
   <artifactId>cicd_b2_lab</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+  <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <fork>true</fork>
+                    <executable>C:\Program Files\Java\jdk1.8.0_152\bin\javac</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+  
+  </build>
 </project>
